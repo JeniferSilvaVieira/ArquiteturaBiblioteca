@@ -6,6 +6,27 @@
 
 ---
 
+## Índice
+
+- [Documento de requisitos](#documento-de-requisitos)
+- [Visão geral](#visão-geral)
+- [Os microsserviços](#os-microsserviços)
+- [Integrações entre os microsserviços](#integrações-entre-os-microsserviços)
+- [Modelo de dados](#modelo-de-dados)
+- [Estrutura do código](#estrutura-do-código)
+- [Modelo de dados](#modelo-de-dados)
+- [Como o serviço Empréstimos se comunica](#como-o-serviço-empréstimos-se-comunica)
+- [Regras de negócio](#documentação)
+- [Fluxos principais](#fluxos-principais)
+- [Endpoints](#endpoints)
+- [Exemplo de uso](#exemplo-de-uso)
+- [Mensagens de erro](#mensagens-de-erro)
+- [Como executar](#como-executar)
+- [Decisões de arquitetura](#decisões-de-arquitetura)
+- [Publicação](#publicação)
+
+---
+
 ## 1. Documento de requisitos
 
 ### 1.1 Propósito do sistema
@@ -175,7 +196,7 @@ Responsabilidade de cada camada:
 - **Client (`...Client`):** só existe no serviço de Empréstimos e isola as chamadas HTTP para os outros serviços.
 - **DataContext:** mapeia as entidades para as tabelas do SQLite.
 
-## 7. Como o serviço de Empréstimos se comunica com os outros
+## 7. Como o serviço Empréstimos se comunica
 
 Existe um client para cada serviço consumido: `LivroClient`, `LeitorClient` e `HistoricoClient`. Eles são registrados no `Program.cs` com `AddHttpClient`, e a URL de cada serviço fica no `appsettings.json`:
 
