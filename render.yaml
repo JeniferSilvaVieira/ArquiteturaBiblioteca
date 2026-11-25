@@ -1,0 +1,39 @@
+services:
+  - type: web
+    name: livros
+    runtime: docker
+    plan: free
+    branch: main
+    dockerfilePath: ./Livros/Dockerfile
+    dockerContext: ./Livros
+
+  - type: web
+    name: leitores
+    runtime: docker
+    plan: free
+    branch: main
+    dockerfilePath: ./Leitores/Dockerfile
+    dockerContext: ./Leitores
+
+  - type: web
+    name: historico
+    runtime: docker
+    plan: free
+    branch: main
+    dockerfilePath: ./Historico/Dockerfile
+    dockerContext: ./Historico
+
+  - type: web
+    name: emprestimos
+    runtime: docker
+    plan: free
+    branch: main
+    dockerfilePath: ./Emprestimos/Dockerfile
+    dockerContext: ./Emprestimos
+    envVars:
+      - key: LivrosUrl
+        value: https://livros.onrender.com
+      - key: LeitoresUrl
+        value: https://leitores.onrender.com
+      - key: HistoricoUrl
+        value: https://historico.onrender.com
