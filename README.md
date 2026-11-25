@@ -449,11 +449,11 @@ O código-fonte está no GitHub e cada microsserviço é publicado como um **Web
 
 | Item | Endereço |
 |---|---|
-| Repositório no GitHub | https://github.com/JeniferSilvaVieira/Arquitetura_Biblioteca |
-| Livros (Render) | https://LIVROS.onrender.com/scalar |
-| Leitores (Render) | https://LEITORES.onrender.com/scalar |
-| Histórico (Render) | https://HISTORICO.onrender.com/scalar |
-| Empréstimos (Render) | https://EMPRESTIMOS.onrender.com/scalar |
+| Repositório no GitHub | https://github.com/JeniferSilvaVieira/ArquiteturaBiblioteca |
+| Livros (Render) | https://livros-agxr.onrender.com/scalar |
+| Leitores (Render) | https://leitores.onrender.com/scalar |
+| Histórico (Render) | https://historico-08iq.onrender.com/scalar |
+| Empréstimos (Render) | https://emprestimos-0rbf.onrender.com/scalar |
 
 Configuração de cada Web Service no Render:
 
