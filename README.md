@@ -4,26 +4,23 @@
 **Integrantes:** Jenifer, Miguel e Paola
 **Tecnologias:** C# / .NET 10, ASP.NET Core Web API, Entity Framework Core, SQLite, Scalar (documentação da API), Docker
 
----
-
 ## Índice
 
-- [Documento de requisitos](#documento-de-requisitos)
-- [Visão geral](#visão-geral)
-- [Os microsserviços](#os-microsserviços)
-- [Integrações entre os microsserviços](#integrações-entre-os-microsserviços)
-- [Modelo de dados](#modelo-de-dados)
-- [Estrutura do código](#estrutura-do-código)
-- [Modelo de dados](#modelo-de-dados)
-- [Como o serviço Empréstimos se comunica](#como-o-serviço-empréstimos-se-comunica)
-- [Regras de negócio](#documentação)
-- [Fluxos principais](#fluxos-principais)
-- [Endpoints](#endpoints)
-- [Exemplo de uso](#exemplo-de-uso)
-- [Mensagens de erro](#mensagens-de-erro)
-- [Como executar](#como-executar)
-- [Decisões de arquitetura](#decisões-de-arquitetura)
-- [Publicação](#publicação)
+- [Documento de requisitos](#1-documento-de-requisitos)
+- [Visão geral](#2-visão-geral)
+- [Os microsserviços](#3-os-microsserviços)
+- [Integrações entre os microsserviços](#4-integrações-entre-os-microsserviços)
+- [Modelo de dados](#5-modelo-de-dados)
+- [Estrutura do código](#6-estrutura-do-código)
+- [Como o serviço Empréstimos se comunica](#7-como-o-serviço-empréstimos-se-comunica)
+- [Regras de negócio](#8-regras-de-negócio)
+- [Fluxos principais](#9-fluxos-principais)
+- [Endpoints](#10-endpoints)
+- [Exemplo de uso](#11-exemplo-de-uso)
+- [Mensagens de erro](#12-mensagens-de-erro)
+- [Como executar](#13-como-executar)
+- [Decisões de arquitetura](#14-decisões-de-arquitetura)
+- [Publicação](#15-publicação)
 
 ---
 
